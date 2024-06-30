@@ -17,7 +17,7 @@ public class TestUserProfile {
         String endpoint = baseUrl+"/users/me";
         JSONObject request = new JSONObject();
 
-        String tokenProfile = "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNzE5NzU2OTEzLCJleHAiOjE3MTk3NjA1MTN9.qHkEjhHGNdBV3USVBohwdQWYPpMzbrEjaiS-5e30k9Dggxj6l_2OYb5qh59dZnl9dNwNiAMnt-OGBLtnzXKIig";
+        String tokenProfile = "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyIiwiaWF0IjoxNzE5NzczNTYzLCJleHAiOjE3MTk3NzcxNjN9._d_GPCnTG5BJbbgM-xgrDUIlUXUWujmDTlYmsgdaw39LediQNg6YTv-7AzTMEKrC03y5DWBT2c_PbAIPIPJE6Q";
 
         RequestSpecification requestBody = RestAssured.given();
         requestBody.header("Authorization", "Bearer " + tokenProfile);
